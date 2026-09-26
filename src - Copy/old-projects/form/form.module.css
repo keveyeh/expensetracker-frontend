@@ -1,0 +1,68 @@
+.form{
+    margin: 100px auto;
+    width: 100%;
+    max-width: 400px;
+    padding:20px ;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px hsl(0,0%,90%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 77%;
+}
+.input{
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    outline: none;
+}
+.select{
+    max-width: 308px;
+    width: 100%;
+    height: 30px;
+}
+.gender{
+    display: flex;
+    gap: 10px;
+    width: 51%;
+}
+.hob{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.genders{
+    width: 77%;
+}
+.hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submit{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn{
+    width: 80%;
+    height: 30px;
+    background-color: hsl(0,0%,80%);
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px hsl(0,0%,90%);
+    border-radius: 4px;
+}

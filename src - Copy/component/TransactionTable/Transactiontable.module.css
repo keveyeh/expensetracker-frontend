@@ -1,0 +1,39 @@
+.container{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+border-collapse: collapse;
+width: 90%;
+background-color:white ;
+font-size: 18px;
+font-weight: bold;
+padding: 10px;
+box-shadow: 5px 5px 5px 5px hsl(0,0%,90%);
+}
+.tr,.td,.th,.tr1{
+  padding: 15px;  
+
+}
+
+.tr:hover{
+    background-color: hsl(0,0%,97%);
+    cursor: pointer;
+}
+
+.td,.tr{
+    text-align: center;
+}
+.thead{
+    background-color: dodgerblue;
+    color: white;
+    
+}
+
+@media(max-width:768px){
+    .container{
+        margin-top: 170px;
+    }
+}

@@ -1,0 +1,12 @@
+.input2{
+    width: 100%;
+    max-width: 410px;
+    height: 100%;
+    border: none;
+    outline: none;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: var(--bg--card);
+    color: var(--text-color);
+}

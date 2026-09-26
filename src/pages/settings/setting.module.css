@@ -1,0 +1,242 @@
+.container{
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first{
+    background-color: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: var(--text-color);
+    border: 1px solid rgb(233, 219, 219);
+}
+.h3{
+    width: 100%;
+    margin-left: 10px;
+}
+.div1{
+    width: 100%;
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid rgb(233, 219, 219);
+}
+.div1:hover{
+    background-color: var(--h-color);
+}
+.div2{
+    display: flex;
+    gap: 20px;
+   
+}
+.div2 span{
+    border-radius: 4px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div2 h3, .div2 p{
+    margin: 0px;
+}
+.first select{
+    outline: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    border: 1px solid rgb(233, 219, 219);
+}
+.toggle{
+    border-radius: 25px;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 3px;
+    cursor: pointer;
+}
+.toggles{
+    border-radius: 25px;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: green;
+    padding: 3px;
+    cursor: pointer;
+}
+.div3 span{
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    border-bottom: none;
+}
+.delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    color: #DC2626;
+    padding: 6px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.modal{
+    width:100%;
+    position: fixed;
+    background-color: var(--modal-color);
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index:1000;
+}
+.modals{
+   width:100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index:1000;
+    visibility: hidden; 
+}
+.last{
+    position: fixed;
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(238, 45, 45);
+    color: white;
+}
+.lasts{
+    visibility: hidden;
+}
+.message{
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+.action{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+.action button{
+    background-color: white;
+    width: 50px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid hsl(0,0%,70%);
+    cursor: pointer;
+}
+.export{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid green;
+    border-radius: 4px;
+    background-color: white;
+    color: green;
+    padding: 6px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.span1{
+background: #FEF3C7;
+color: #D97706;
+}
+.span2{
+background: #DCFCE7;
+color:#16A34A ;
+}
+.span3{
+background: #FCE7F3;
+color: #DB2777;
+}
+.span4{
+background: #CFFAFE;
+color: #0891B2;
+}
+.span5{
+background: #FEE2E2;
+color: #DC2626;
+}
+@media(max-width:786px){
+    .first{
+        width: 80%;
+        padding: 10px;
+        gap: 20px;
+    }
+    .div1{
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .div2{
+        width: 100%;
+    }
+    .div3{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+}

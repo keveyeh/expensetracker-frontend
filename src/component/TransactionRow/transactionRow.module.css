@@ -1,0 +1,47 @@
+.transactionrow td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--th-border);
+  color: #334155;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.transactionrow:hover {
+  background: #f8fafc;
+}
+
+.transactiontype {
+  font-weight: 500;
+}
+
+.transactionamount {
+  font-weight: 600;
+}
+
+.transactionactions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+.editbtn,
+.deletebtn {
+  border: none;
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.editbtn {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.deletebtn {
+  background: #fef2f2;
+  color: #dc2626;
+}

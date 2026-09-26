@@ -1,0 +1,48 @@
+.navbar{
+    width: 100%;
+    max-width: 1500px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: dodgerblue;
+    padding: 20px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 5px;
+    border: 1px solid white;
+}
+.logo{
+    width: 30%;
+    height: auto;
+}
+.h3{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+
+}
+.middle{
+    border: 1px solid red;
+    width: 50%;
+}
+.rightside{
+    border: 1px solid pink;
+    width: 15%;
+
+}

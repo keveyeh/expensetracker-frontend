@@ -1,0 +1,24 @@
+.tr:hover{
+    background-color: hsl(0,0%,97%);
+    cursor: pointer;
+}
+.tr{
+ background-color: white;
+
+}
+.tr,.td{
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.td2{
+     text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}

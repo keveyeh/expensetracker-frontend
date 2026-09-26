@@ -1,0 +1,54 @@
+.last{
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tablecontainer {
+  width: 90%;
+  overflow-x: auto;
+  background: var(--bg-card);
+  border-radius: 0.75rem;
+  border: 1px solid var(--table-bordercolor);
+}
+.b1{
+  width: 100%;
+}
+.transactiontable {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+}
+
+.transactiontable thead {
+  background: var(--thead-color);
+}
+
+.transactiontable th {
+  padding: 1rem 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--td-color);
+  border-bottom: 1px solid var(--th-border);
+}
+
+.transactiontable td {
+  padding: 1rem 1.25rem;
+  font-size: 0.9rem;
+  color: var(--td-color);
+  border-bottom: 1px solid var(--th-border);
+}
+
+.transactiontable tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.transactiontable tbody tr:hover {
+  background-color: var(--td-hover);
+}
+
+.transactiontable tbody tr:last-child td {
+  border-bottom: none;
+}

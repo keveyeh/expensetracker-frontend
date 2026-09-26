@@ -1,0 +1,135 @@
+.contain{
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+}
+.card{
+    background-color: var(--bg-card);
+    height: 100px;
+    border-radius: 8px;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    border: 1px solid rgb(233, 219, 219);
+    justify-content: space-between;
+}
+.span{
+    color: gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div2{
+    font-weight: bold;
+    font-size: 18px;
+}
+.icon{
+    background-color: dodgerblue;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.help{
+    display: flex;
+    margin-top: 120px;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1500px;
+    z-index: -1000;
+}
+.pie{
+    width: 35%;
+    background-color: var(--bg-card);
+    border: 1px solid rgb(233, 219, 219);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+.note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tran{
+    background-color: var(--bg-card);
+    width: 97%;
+    margin-top: 50px;
+    padding: 20px 0px;
+    border-radius:8px;
+    border: 1px solid rgb(233, 219, 219);
+}
+.tran h3{
+    margin-left: 65px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+.div1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.chart{
+    width: 100%;
+    background-color: var(--bg-card);
+    height: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid rgb(233, 219, 219);
+    border-radius: 8px;
+    
+}
+.pie{
+    border-radius: 12px;
+    background-color: var(--bg-card);
+   
+}
+@media(max-width:768px){
+.container{
+    width: 95%;
+}
+.contain{
+    width: 100%;
+}
+.help{
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.pie{
+    width: 95%;
+}
+.chart{
+    width: 100%;
+}
+.tran{
+    width: 95%;
+}
+}
+@media(min-width:800px){
+    .help{
+    width: 100%;
+   
+}
+}

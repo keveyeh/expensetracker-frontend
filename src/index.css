@@ -1,0 +1,52 @@
+:root{
+  --bg-body: #F8FAFC;
+  --bg-card:white;
+  --bg-cart:white;
+  --text-color:black;
+  --span-color:#E5E7EB;
+ --name-color:gray;
+ --bottom-color:#E5E7EB;
+ --sidebar-color:dodgerblue;
+ --thead-color:#f8fafc;
+ --td-color:#334155;
+ --table-bordercolor:#e5e7eb;
+ --td-hover:#f8fafc;
+ --bg--cards:gray;
+ --th-border:#e5e7eb;
+ --modal-color:rgba(0,0,0,0.3);
+ --btn-color:hsl(0,0%,95%);
+ --hover:hsl(0,0%,90%);
+ --h-color:hsl(0,0%,98%);
+ --profile-color:gray;
+}
+
+body.dark{
+  --profile-color:white;
+  --h-color:hsl(0,0%,30%);
+  --hover:hsl(0,0%,70%);
+  --btn-color:hsl(0,0%,40%);
+  --modal-color:rgba(0,0,0,0.7);
+  --bg-body:#1a1a27;
+  --bg-card:#252538;
+  --bg-cart:#1a1a27;
+  --text-color:white;
+  --span-color:white;
+  --name-color:white;
+  --bottom-color:hsl(0,0%,70%);
+  --sidebar-color:#1a1a27;
+  --thead-color:#252538;
+  --td-color:white;
+  --table-bordercolor:#252538;
+  --td-hover:hsl(0,0%,60%);
+  --bg-cards:#252538;
+  --th-border:#2a2a3a;
+}
+
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-body);
+  transition: background-color 0.3s ease;
+}
